@@ -1,3 +1,18 @@
+# PROBLEMA
+Tive um problema com o Bootstrap no angular.json na parte de styles e scripts,
+quando eu colava os códigos:
+"styles": [
+"node_modules/bootstrap/dist/css/bootstrap.css",
+"@angular/material/prebuilt-themes/indigo-pink.css",
+"src/styles.css"
+],
+"scripts": [
+"node_modules/bootstrap/dist/js/bootstrap.js"
+]
+Meu projeto parava de funcionar, só funcionou sem esses códigos.
+ 
+
+
 # Atividadesenai
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.6.
